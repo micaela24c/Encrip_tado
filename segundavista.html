@@ -5,13 +5,14 @@
     <title>Encriptado</title>
     <link rel="stylesheet" href="assets/css/encriptado.css">
     <link rel="stylesheet" href="assets/css/barra.css">
+    <link rel="stylesheet" href="assets/css/botones-encrip.css">
 
   </head>
   <body>
 
       <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Creadores</a></li>
             <li><a href="#">Encriptado Base 64<i class="icon ion-md-arrow-dropdown"></i></a>
                 <ul>
@@ -34,14 +35,21 @@
     <div class="testbox">
 
         <h1 id= "texto">Escribe aquí</h1>
-        <input type= "text" size="25"/> 
-        <button class= "btn neon" type="submit" onclick="encriptar(this)">Encriptar</button>
-        <button class= "btn neon" type="submit" onclick="desencriptar(this)">Desencriptar</button>
 
+            <div class= "botones">
+
+                <br>
+                <input  class="mensaje" type= "text" size="35"/> 
+                <button class="btn1" type="submit" onclick="encriptar(this)">Encriptar</button>
+                <button class="btn1" type="submit" onclick="desencriptar(this)">Desencriptar</button>
+                
+            </div>
+        <br>
         <p id="resultado"></p>
 
     </div>
 
+   
 
   <script src="assets/js/encriptado.js"></script>
 

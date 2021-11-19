@@ -1,0 +1,27 @@
+.btn1{
+    color: #081218;
+    background-color: #2196f3;
+    border-color: #2196f3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.btn1:hover{
+    background-color: #081218;
+    border-color: #081218;
+    color: #2196f3;
+}
+
+
+.mensaje{
+    padding: 6px;
+    background-color:whitesmoke;
+}
