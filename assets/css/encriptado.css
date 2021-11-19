@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(assets/font/Nasa.ttf);
+    src: url("assets/font/Nasa.ttf");
   }
 
   div {
