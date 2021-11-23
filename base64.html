@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Encriptado</title>
+    <link rel="stylesheet" href="assets/css/encriptado.css">
+    <link rel="stylesheet" href="assets/css/barra.css">
+    <link rel="stylesheet" href="assets/css/botones-encrip.css">
+
+  </head>
+  <body>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="creadores.html">Creadores</a></li>
+            <li><a href="">Encriptado Base 64<i class="icon ion-md-arrow-dropdown"></i></a>
+                <ul>
+                    <li><a href="base64.html">¿Cómo se usa?</a></li>
+                    <li><a href="base64.html#origen">Origen</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="cabecera">
+        <video id="video" class= "video video1"loop autoplay preload muted>
+            <source src="assets/video/video-fondo.mp4">
+            <source src="assets/video/video-fondo.mp4" >
+            <source src="assets/video/video-fondo.mp4" >            
+        </video>
+    </div>
+
+    <div id="cabecera">
+        <video id="video2" class= "video video2" loop autoplay preload muted>
+            <source src="assets/video/video-fondo.mp4">
+            <source src="assets/video/video-fondo.mp4" >
+            <source src="assets/video/video-fondo.mp4" >            
+        </video>
+    </div>
+
+    <div class="testbox">
+
+        <h1 id= "texto">¿Cómo se usa?</h1>
+            <br>
+                <div class= "Parrafo"> 
+                    <p>
+                        El método de codificación Base64 requiere que cada
+                        tres bytes de 8 bits se conviertan en cuatro bytes
+                        de 6 bits. Entre estos cuatro bytes después de la
+                        conversión, cada seis bits válidos son datos válidos,
+                        y los dos bits restantes usan 0
+                    </p>
+                </div>
+            </br>
+    </div>
+
+
+    <div id= "origen" class= "box">
+        <h1>Origen</h1>
+        <br>
+          <div class= "Parrafo"> 
+            <p> 
+                La intención original de Base64 era cumplir con el requisito de que los caracteres
+                no ASCII no se pueden usar directamente en los correos electrónicos porque algunos
+                de los primeros servidores de correo solo admiten mensajes de texto, no mensajes y archivos binarios.
+                El escenario de aplicación más utilizado es transmitir mensajes de texto largos a través del protocolo http. 
+                Empaqueta los datos binarios ingresados ​​por el usuario en un formato seguro y los envía como el valor del 
+                campo de encabezado http sin preocuparse de que contenga dos puntos, saltos de línea o valores 
+                binarios que destruirán el programa de análisis HTTP. 
+            </p>
+            </div>
+        </br>
+    </div>
+
+  <script src="assets/js/encriptado.js"></script>
+
+
+</body>
+
+</html>

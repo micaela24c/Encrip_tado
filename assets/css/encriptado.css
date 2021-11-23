@@ -6,6 +6,10 @@
   div {
     font-family: myFirstFont;
   }
+  
+  p{
+    font-family: 'Spartan', sans-serif;
+  }
 
  /* http://tuderechoasaber.com.do/wp-content/uploads/2019/02/blockchain.gif */
 
@@ -14,7 +18,7 @@
     width: 100%;
     height: 500px;
     }
-    #video {
+    #video, .video, .video1 {
     position: absolute;
     left: 0;
     top: 0;
@@ -22,9 +26,14 @@
     height: auto;
     z-index: -10;
     visibility: visible;
+    
     }
     
-
+.video2{
+    left: 0;
+    top: 758.81px;
+    
+}
 
 
 body{
@@ -42,14 +51,35 @@ body{
     text-align: center;
     color: #2196f3;
     margin: 20px auto;
-    width: 700px;
+    width: 900px;
     top: 50%;
     left: 50%;
     transform: translateX(-50%)translateY(-50%);
     position: absolute;
     letter-spacing: 3px;
     font-size: 20px;
+    background-color: #081218;
+    border-radius: 10px;
 }
+
+.box{
+    
+    text-align: center;
+    color: #2196f3;
+    background-color: #081218;
+    margin: 20px auto;
+    padding: 50px 30px 50px 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    top: 50%;
+    left: 50%; 
+    width: 900px;
+}
+
+#parrafo{
+    font-family: 'Spartan', sans-serif;
+}
+
 
 /*css de botón interactico*/
 
