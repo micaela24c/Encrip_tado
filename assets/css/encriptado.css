@@ -178,17 +178,3 @@ a:hover span:nth-child(4)
     transition-delay: 0,75s;
     
 }
-
-.testbox2{
-
-    padding: 50px 30px 50px 30px;
-    text-align: center;
-    color: #2196f3;
-    margin: 20px auto;
-    width: 500px;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%)translateY(-50%);
-    position: absolute;
-    letter-spacing: 3px;
-}
