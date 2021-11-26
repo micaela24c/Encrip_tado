@@ -43,7 +43,7 @@ function encriptar(elemento) {
             }
         } else {
             for (let j = 0; j < Math.floor(binString / 6); j++) {
-                bytes6 = "00" + binString.slice(k, k + 6);
+                bytes6 = "00" + binString.slice(j, j + 6);
                 newAscii = parseInt(bytes6, 2);
                 newbase64 += base64[newAscii];
             }
