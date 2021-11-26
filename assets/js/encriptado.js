@@ -42,7 +42,7 @@ function encriptar(elemento){
     }
 
 
-    document.getElementById("resultado").innerHTML = palabra_codificada;
+    document.getElementById("resultado").innerHTML = base64Frase ;
 }
  
 function desencriptar(elemento){
