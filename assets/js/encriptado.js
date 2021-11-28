@@ -69,10 +69,10 @@ function encriptar(elemento) {
     document.getElementById("resultado").innerHTML = base64Frase;
 }
 
-
-function desencriptar(elemento) {
+function desencriptar(elemento){
     var base64Frase = document.getElementsByTagName("input")[0].value;
-    var palabra = "";
+    var palabra_descodificada = "";
+
 
     for (let i = 0; i < palabra.length; i += 3) {
         let subPalabra = palabra.slice(i, i + 3);
@@ -120,11 +120,6 @@ function desencriptar(elemento) {
         }
         base64Frase += newbase64;
     }
-    document.getElementById("resultado").innerHTML = palabra;
+
+    document.getElementById("resultado").innerHTML = palabra_descodificada;
 }
-
-
-    
-    
-
-    
