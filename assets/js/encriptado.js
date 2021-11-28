@@ -70,7 +70,7 @@ function encriptar() {
 }
 
 
-//FALTA ACABAR
+//desencriptar
 
 
 function desencriptar() {
