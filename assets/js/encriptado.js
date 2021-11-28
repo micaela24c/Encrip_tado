@@ -91,7 +91,7 @@ function desencriptar(elemento){
     }
 
      
-
+    palabra_descodificada += newbase64;
 
     document.getElementById("resultado").innerHTML = palabra_descodificada;
 }
