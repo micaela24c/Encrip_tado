@@ -71,6 +71,9 @@ function encriptar(elemento) {
 
 function desencriptar(elemento){
     var palabra = document.getElementsByTagName("input")[0].value;
-    var palabra_descodificada = atob(palabra);
+    var palabra_descodificada = "";
+
+    alert( num.toString(2) );
+
     document.getElementById("resultado").innerHTML = palabra_descodificada;
 }
