@@ -70,10 +70,6 @@ function encriptar(elemento) {
 }
 
 function desencriptar(elemento) {
-
-    function reverse(s){
-        return s.split("").reverse().join("");
-    
     
     var palabra = document.getElementsByTagName("input")[0].value;
     var base64Frase = "";
@@ -128,8 +124,7 @@ function desencriptar(elemento) {
     document.getElementById("resultado").innerHTML = palabra_descodificada;
 }
     
-    var sss = reverse("adam")
-    console.log(sss)
-}
+    
+
 
      
