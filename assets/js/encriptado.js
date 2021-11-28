@@ -16,7 +16,7 @@ for (let index = 48; index <= 57; index++) {
 base64.push("+");
 base64.push("/");
 
-function encriptar(elemento) {
+function encriptar() {
     var palabra = document.getElementsByTagName("input")[0].value;
     var base64Frase = "";
 
@@ -73,7 +73,7 @@ function encriptar(elemento) {
 //FALTA ACABAR
 
 
-function desencriptar(elemento) {
+function desencriptar() {
     var base64Frase = document.getElementsByTagName("input")[0].value;
     var palabra_desencriptada = "";
     var indice64 = -1;
@@ -124,7 +124,7 @@ function desencriptar(elemento) {
             ceros += "0";
         }
 
-        //acá no estoy segura
+        // estoy segura
         binString += ceros + binario; //010010
 
     }
