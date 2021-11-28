@@ -70,7 +70,7 @@ function encriptar(elemento) {
 }
 
 
-function encriptar(elemento) {
+function desencriptar(elemento) {
     var base64Frase = document.getElementsByTagName("input")[0].value;
     var palabra = "";
 
