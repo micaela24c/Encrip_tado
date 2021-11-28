@@ -70,10 +70,7 @@ function encriptar(elemento) {
 }
 
 function desencriptar(elemento){
-
-    var base64Frase = document.getElementsByTagName("input")[0].value;
-    var palabra_decodificada = "";
-
-        alert( num.toString(2) );
-
+    var palabra = document.getElementsByTagName("input")[0].value;
+    var palabra_descodificada = atob(palabra);
+    document.getElementById("resultado").innerHTML = palabra_descodificada;
 }
