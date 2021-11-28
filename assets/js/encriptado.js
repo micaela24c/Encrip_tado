@@ -69,6 +69,7 @@ function encriptar(elemento) {
     document.getElementById("resultado").innerHTML = base64Frase;
 }
 
+
 function encriptar(elemento) {
     var base64Frase = document.getElementsByTagName("input")[0].value;
     var palabra = "";
@@ -117,7 +118,7 @@ function encriptar(elemento) {
                 newbase64 += "=";
             }
         }
-        palabra += newbase64;
+        base64Frase += newbase64;
     }
     document.getElementById("resultado").innerHTML = palabra;
 }
