@@ -117,7 +117,7 @@ function desencriptar(elemento){
                 newbase64 += "=";
             }
         }
-        base64Frase += newbase64;
+        palabra_descodificada += newbase64;
     }
     document.getElementById("resultado").innerHTML = palabra_descodificada;
 }
