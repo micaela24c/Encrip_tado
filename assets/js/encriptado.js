@@ -71,8 +71,8 @@ function encriptar(elemento) {
 
 function desencriptar(elemento) {
     
-    var palabra = document.getElementsByTagName("input")[0].value;
-    var base64Frase = "";
+    var base64Frase = document.getElementsByTagName("input")[0].value;
+    var palabra = "";
 
     for (let i = 0; i < palabra.length; i += 3) {
         let subPalabra = palabra.slice(i, i + 3);
